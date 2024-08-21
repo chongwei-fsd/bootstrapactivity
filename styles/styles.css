@@ -1,6 +1,7 @@
 /* import font from Google CDN */
 @import url('href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Source+Sans+Pro:wght@300;400&display=swap"');
 
+
 /* universal settings */
 *,*::before,*::after{
   margin:0;
@@ -18,7 +19,7 @@ body{
   background-position: top center;
   background-size:cover;
   background-attachment: fixed;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.9);
   background-blend-mode: overlay;
 }
 
@@ -51,13 +52,13 @@ body{
 }
 
 .homebanner h1{
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 196, 0, 0.75), rgba(255, 255, 255, 0))
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 196, 0, 0.75), rgba(255, 255, 255, 0));
 }
 
 .shadow-effects {
   color: transparent;
   letter-spacing: .10em;
-  text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 0.6);
+  text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 0.5);
 }
 
 .bg-primary{
@@ -67,10 +68,15 @@ body{
 
 .homepage-card img {
   width: 100%;
-  height: auto;
+  height: 15dvh;
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   background-image: url("../img/imgplaceholder.png");
   /* text-indent: -9999px; */ /* remove or comment out text indent if all images are available */
+}
+
+.btn-send{
+  background-color: #ea383c;
+  color: white;
 }
